@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="inputName" />
+    <button id="btnCase">Swap Case</button>
+    <span id="outputName"></span>
+
+
+
+    <script type="module">
+        import { swapCase } from "/swapCase.js";
+        document.getElementById("btnCase").addEventListener("click", swapCase);
+    </script>
+</body>
+</html>
